@@ -1,0 +1,70 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #9F00F2;
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  color: #00F23C;
+}
+
+a:visited {
+  color: #E6F200;
+}
+footer {
+  font-size: .9rem;
+}
+
+#clock {
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 5rem;
+  margin: 3rem 0;
+}
+
+/* media queries */
+
+@media (max-width: 900px) {
+  html { font-size: 17px; }
+
+  body {
+    background: #00A9F2;
+  }
+
+  a {
+    color: #0D394C;
+  }
+
+  a:visited {
+    color: #00F218;
+  }
+
+  #clock {
+    color: #F2DA00;
+    font-size: 4rem;
+  }
+}
+@media (max-width: 400px) {
+  html { font-size: 14px; }
+
+  body {
+    background: #2C2C2C;
+  }
+
+  a {
+    color: #FAABA5;
+  }
+
+  a:visited {
+    color: #A5C2FA;
+  }
+
+  #clock {
+    color: #D1D1D3;
+    font-size: 3rem;
+  }
+}
